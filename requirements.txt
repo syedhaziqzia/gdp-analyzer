@@ -1,2 +1,2 @@
-requests
-matplotlib
+requests>=2.25.1
+matplotlib>=3.4.0

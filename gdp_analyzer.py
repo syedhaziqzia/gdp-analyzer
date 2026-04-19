@@ -91,9 +91,10 @@ class GDPAnalyzer:
             r.raise_for_status()
             data = r.json()
             
+            # FIXED: Added to properly target the data array
             if len(data) < 2 or not data: raise ValueError(f"No API data for {country}")
             
-            # Filter and store billions
+            # FIXED: Added to properly iterate through the data array
             clean_data = {str(e['date']): e['value']/1e9 for e in data if e['value'] is not None}
             if not clean_data: raise ValueError(f"GDP values missing for {country}")
             

@@ -14,8 +14,8 @@ A professional, lightweight Python application for exploring Global GDP data usi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/gdp-explorer.git
-   cd gdp-explorer
+   syedhaziqzia/gdp-analyzer.git
+   cd gdp-analyzer
    ```
 
 2. **Install the required libraries:**
